@@ -47,8 +47,9 @@ footer .copyright:hover{
     color: #ddd;
 }
 .card{
-    float: none;
-    align-items: center;
     max-width: 300px;
     border: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");

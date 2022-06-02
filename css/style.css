@@ -210,10 +210,6 @@ border-bottom-right-radius: 12px;
     outline: none;
     font-size: 15px;
 }
-.active::after{
-    content: '\F286';
-}
-
 .active, .collapsible:hover {
   background-color: #555;
 }
