@@ -67,6 +67,13 @@ li{
     letter-spacing: 8px;
     text-transform: uppercase;
 }
+.p-text a{
+    text-decoration: none;
+    color: #fff;
+}
+.p-text a:hover{
+    color: #ddd;
+}
 .p-text-1{
     position: absolute;
     top: 50%;
@@ -191,22 +198,19 @@ border-bottom-right-radius: 12px;
 .card__comments-info{
     float: right;
 }
-.bi-icon{
-    float: right;
+.collapsible {
+    background-color: #404A3D;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
 }
 .active::after{
     content: '\F286';
-}
-.collapsible {
-  background-color: #404A3D;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
 }
 
 .active, .collapsible:hover {
